@@ -130,7 +130,7 @@ public class Counter
         // CHANGE THE RETURN TO A DESCRIPTION OF THE COUNTER
         // MUST FOLLOW THE FOLLOWING FORMAT:
         //Counter: value=1 min=1 max=9 rolled over=false
-	return "Counter: value= " + value() + " min= " + min + " max= " + max + " rolled over= " + rolledOver();
+	return "Counter: value=" + value() + " min=" + min + " max=" + max + " rolled over=" + rolledOver();
     }
  
 }
