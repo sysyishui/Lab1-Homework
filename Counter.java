@@ -132,8 +132,5 @@ public class Counter
         //Counter: value=1 min=1 max=9 rolled over=false
 	return "Counter: value= " + value() + " min= " + min + " max= " + max + " rolled over= " + rolledOver();
     }
-
-        return " Counter value is " + getValue + " Min Value is " + min + " Max Value is " + max + " overChck " + rolledOver;		
-    }
  
 }
